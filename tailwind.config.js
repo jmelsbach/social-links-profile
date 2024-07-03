@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        custom: ["Figtree", "sans-serif"],
+        custom: ["Inter", "sans-serif"],
       },
       fontWeight: {
         semibold: '500',
