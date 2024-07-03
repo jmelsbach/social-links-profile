@@ -7,8 +7,12 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['Inter', 'ui-sans-serif', 'system-ui', /* other fallbacks */],
+        custom: ["Figtree", "sans-serif"],
       },
+      fontWeight: {
+        semibold: '500',
+        extrabold: '800',
+      }
     },
   },
   plugins: [],
