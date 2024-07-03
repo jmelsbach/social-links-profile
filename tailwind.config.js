@@ -5,7 +5,11 @@ export default {
     './src/components/**/*.{html,js,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'sans': ['Inter', 'ui-sans-serif', 'system-ui', /* other fallbacks */],
+      },
+    },
   },
   plugins: [],
 }
